@@ -24,7 +24,7 @@ Size getDefaultSize(Size screenSize) {
   } else {
     resultSize = Size(screenSize.width, screenSize.height);
   }
-  return resultSize * 0.7;
+  return resultSize * 1.0;
 }
 
 /// Forward the view base on its degree
